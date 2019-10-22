@@ -1,0 +1,328 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #FFF;
+    overflow-x: hidden;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+a,
+button {
+    transition: all .3s ease-in-out;
+}
+
+a:hover {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.scrollToTop {
+    width: 40px;
+    height: 40px;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    opacity: 0;
+    z-index: 500;
+    transition: all .3s ease-in-out;
+}
+
+.scrollToTop span {
+    margin-top: 6px;
+}
+
+.showScrollTop {
+    font-size: 14px;
+    opacity: 1;
+}
+
+/* Modifications */
+
+body {
+    font-size: 14px;
+}
+
+.page-container {
+    font-family: Helvetica, Arial, sans-serif;
+    line-height: 20px;
+    font-weight: 400;
+    text-align: center;
+    background-color: white;
+    color: #333333;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 400;
+}
+
+a:focus {
+    outline: none;
+    text-decoration: none;
+    box-shadow: 6px 6px 16px rgba(0, 0, 0, 0.7);
+}
+
+header {
+    max-width: 998px;
+    margin: 20px auto;
+}
+
+.hero-big-title {
+    font-size: 2.5rem;
+    line-height: 40px;
+}
+
+.section-title {
+    font-size: 2.25rem;
+}
+
+.section-sub-title {
+    margin: 20px 0px;
+    font-size: 1.25rem;
+    font-weight: 400;
+    line-height: 25px;
+}
+
+.bloc-1-presentation {
+    height: 435px;
+    padding: 40px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    background: url("../img/texture-paper.png"), url("../img/la-chouette-agence-banniere-compressor.jpg") top fixed, #364577;
+    background-position: center;
+    background-size: 280px 280px, auto, auto;
+    color: white;
+}
+
+.hero-logo {
+    width: 100px;
+    height: 100px;
+}
+
+.button {
+    padding: 12px 28px;
+    border-radius: 40px;
+    display: inline-block;
+    font-size: 1rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 18px;
+    border: 1px solid rgba(0, 0, 0, .08);
+    border-bottom-color: rgba(0, 0, 0, .1);
+    text-shadow: 0 1px 0 rgba(0, 0, 1, .1);
+    box-shadow: 0 1px 3px rgba(0, 0, 1, .25), inset 0 1px 0 0 rgba(255, 255, 255, .15);
+    background: #B75B30;
+    color: white;
+    transition: all .3s ease-in-out;
+    cursor: pointer;   
+}
+
+.button:hover {
+    background: #c27956;
+    color: white;
+}
+
+.bloc-2-services {
+    max-width: 862px;
+    margin: auto;
+    padding: 50px 5px;
+}
+
+.horizontal-box {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.portfolio-box {
+    margin: 32px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;   
+}
+
+.service-item {
+    max-width: 266px;
+    padding: 15px;
+}
+
+.service-icon {
+    font-size: 4rem;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, .3);
+    color: #364577;
+    border-color: #364577;
+}
+
+.bold-title {
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: black;
+}
+
+.statement-bloc-text {
+    max-width: 520px;
+    margin: 50px auto auto auto;
+    line-height: 26px;
+    font-style: italic;
+    font-size: 1.2rem;
+    font-weight: lighter;
+}
+
+.bloc-3-what-i-do {
+    height: 600px;
+    padding: 40px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: url("../img/texture-paper.png"), url("../img/image-de-presentation-compressor.jpg") top fixed, rgb(243, 151, 108);
+    background-position: center;
+    background-size: 280px 280px, auto, auto;  
+}
+
+.black-frame {
+    max-width: 600px;
+    margin: auto;
+    padding: 40px 5px;
+    background: rgba(35,31,32,0.7);  
+    color: white;  
+}
+
+.margin-16 {
+    margin-top: 16px;
+}
+
+.bloc-4-portfolio {
+    padding: 60px 5px;
+    background: url("../img/lines-h2-bg-compressor.png");  
+    color: #575757;
+}
+
+.portfolio-item {
+    width: 300px;
+    padding: 15px;
+}
+
+.bloc-5-cta {
+    height: 362px;
+    padding: 40px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    background: url("../img/texture-paper.png"), url("../img/la-chouette-agence-banniere-compressor.jpg") top fixed, #364577;
+    background-position: center;
+    background-size: 280px 280px, auto, auto;
+    color: white;
+}
+
+footer {
+    padding: 20px 5px;
+    background: #B75B30;
+    color: white;
+}
+
+.footer-text {
+    font-size: 1rem;
+    line-height: 20px;
+}
+
+.social-media-box {
+    max-width: 400px;
+    margin: 24px auto 24px auto;   
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.social-media-icon {
+    font-size: 2.1rem;
+    color: white;
+    transition: all 0.35s ease-in-out;
+}
+
+.social-media-icon:hover {
+    color: #333333;
+}
+
+.bloc-page-contact {
+    height: 311px;
+    padding: 0px 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: url("../img/dots-bg-compressor.png"), url("../img/texture-paper.png"), rgb(243, 151, 108);
+    background-size: auto, 280px 280px, auto;  
+    color: white;
+}
+
+.contact-bloc-width {
+    width: 470px;
+    margin: 0px 15px;
+}
+
+.iframe-map {
+    width: 450px;
+    height: 300px;
+    border: 2px solid rgba(128, 128, 128, 0.1);
+    border-bottom: 2px solid grey; 
+    margin: 32px auto;
+}
+
+.bloc-page-contact-titre {
+    margin-bottom: 10px;
+    font-size: 2.35rem;
+    line-height: 40px;  
+}
+
+.contact-bloc {
+    padding: 80px 0px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.submit-button {
+    margin-bottom: 16px;
+    padding: 12px;
+    border-radius: 6px;
+    border: none;        
+    font-size: 1rem;
+    font-weight: 700;
+    background-color: #B75B30;
+    color: white;
+    cursor: pointer; 
+}
+
+.submit-button:focus, .submit-button:hover {
+    box-shadow: 6px 6px 16px rgba(0, 0, 0, 0.7);
+}
+
+@media (max-width: 768px) {
+    .hero-big-title {
+        font-size: 50px;
+    }
+
+    .section-title {
+        font-size: 30px;
+    }
+
+    .black-background {
+        padding: 0px 0px 20px 0px;
+    }
+
+    .black-frame {
+        padding: 5px;
+    }
+
+    .iframe-map {
+        width: 300px;
+        height: 200px;
+    }
+}
+

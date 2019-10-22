@@ -1,0 +1,103 @@
+.contact-input-field {
+    width: 100%;
+    padding: 18px 12px 6px;
+    font-size: 1.2rem;
+    line-height: 20px;
+    border-bottom: 2px solid gray;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    background-color: rgba(243, 151, 108, 0.1);
+    margin-bottom: 8px;
+    transition: all 0.2s ease-in-out;
+}
+
+.contact-input-field:focus + .label-animated, .contact-input-field:not(:placeholder-shown) + .label-animated {
+    bottom: 50px;
+    font-size: 0.85rem;
+}
+
+
+.label-animated {
+    position: relative;
+    text-align: left;
+    bottom: 40px;
+    left: 12px;
+    font-weight: 400;
+    font-size: 1.2rem;
+    color: rgba(0, 0, 0, 0.7);
+    transition: all 0.2s ease-in-out;
+}
+
+.contact-select-field {
+    width: 100%;
+    padding: 12px 8px 8px;
+    font-size: 1.2rem;
+    line-height: 20px;
+    border-bottom: 2px solid grey;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    background: url("../img/caret-down-solid.svg"), rgba(243, 151, 108, 0.1);
+    background-repeat: no-repeat;
+    background-position: 430px 0px;
+    margin-bottom: 32px;
+    transition: all 0.2s ease-in-out;
+    color: rgba(0, 0, 0, 0.7);
+    appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+}
+
+.contact-select-field-default {
+    color: rgba(0, 0, 0, 0.7);
+}
+
+.contact-input-textarea {
+    width: 100%;
+    height: 200px;
+    padding: 18px 12px 6px;
+    font-size: 1.2rem;
+    line-height: 20px;
+    border-bottom: 2px solid grey;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    background-color: rgba(243, 151, 108, 0.1);
+    margin-bottom: 8px;
+    transition: all 0.2s ease-in-out;
+}
+
+.contact-input-textarea:focus + .label-textarea, .contact-input-textarea:not(:placeholder-shown) + .label-textarea {
+    bottom: 205px;
+    font-size: 0.85rem;
+}
+
+.label-textarea {
+    position: relative;
+    text-align: left;
+    bottom: 196px;
+    left: 12px;
+    font-weight: 400;
+    font-size: 1.2rem;
+    color: rgba(0, 0, 0, 0.7);
+    transition: all 0.2s ease-in-out;
+}
+
+.invalid {
+    border: 2px solid red;
+    box-shadow: 2px 2px 10px red;
+}
+
+@media (max-width: 768px) {
+    .contact-select-field {
+        font-size: 0.9rem;
+        background-position: right;
+    }
+}
